@@ -15,7 +15,9 @@ export default function LoginForm() {
   const dispatch = useDispatch();
 
   const LoginFormSchema = Yup.object().shape({
-    username: Yup.string().required("UserName is required"),
+    username: Yup.string()
+      .required("Email is required")
+      .email("Email must be a valid email address"),
     password: Yup.string().required("Password is required"),
   });
 
