@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+  padding: 5px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #00000024;
+  border-radius: 7px;
+}
+
+.loginbutton{
+    border: 1px solid #0000004a;
+    padding: 5px;
+    border-radius: 4px;
+    color: #ffff;
+    background: #2076D2;
+  }
+
+.inputbox{
+width: 60%;
+}
